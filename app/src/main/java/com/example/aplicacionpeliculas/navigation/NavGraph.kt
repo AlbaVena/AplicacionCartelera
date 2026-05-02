@@ -1,9 +1,12 @@
-package com.example.aplicacionpeliculas.navigation
-
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavGraph
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.example.aplicacionpeliculas.navigation.Screen
+import com.example.aplicacionpeliculas.view.DetalleScreenView
+import com.example.aplicacionpeliculas.view.HomeScreenView
 import com.example.aplicacionpeliculas.viewmodel.PeliculasViewModel
 
 //esta funcion dibuja pantallas
@@ -38,7 +41,7 @@ fun NavGraph(viewModel: PeliculasViewModel) {
             )
         ) { backStackEntry ->
             val peliculaId = backStackEntry.arguments?.getInt("peliculaId") ?: 0
-            DetailScreenView(
+            DetalleScreenView(
                 viewModel = viewModel,
                 peliculaId = peliculaId,
                 alVolver = { navController.popBackStack() }

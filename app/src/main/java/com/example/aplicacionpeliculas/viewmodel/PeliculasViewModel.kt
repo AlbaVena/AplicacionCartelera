@@ -38,7 +38,7 @@ class PeliculasViewModel : ViewModel() {
             director = "Christopher McQuarrie",
             reparto = "Tom Cruise, Hayley Atwell, Ving Rhames",
             sinopsis = "Ethan Hunt afronta su misión más peligrosa contra una IA fuera de control.",
-            urlPoster = "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fnew-final-reckoning-poster-v0-99llptunx1ge1.jpeg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D3d77a7a668cc66e22e683e2ef74422f4f8eea8e3",
+            urlPoster = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVFrFGl3T6iZSUFdefGYmvHcEt19wyJRrmAqm47JaBm0KzUlo9eDPu86AhHLDtD0mNSBgsBCr-QQlcmlbh8GFC_Jx-nSRMhuegs-ODF4NNhlZxptVKIp8vNc5AhQDKTpGO-6ZgBVSslQh2lM_NOBFyneqx7BIVxUuwcnW9vrZZ3rVX3EspcM3_83D3NIg/s1004/critica-mision-imposible-sentencia-final.jpg",
             urlTrailer = "https://youtu.be/WPcB2J7j6L8?si=OoiXJqa_EByzOMyx"
         ),
         Pelicula(
@@ -54,7 +54,7 @@ class PeliculasViewModel : ViewModel() {
             director = "Gareth Edwards",
             reparto = "Scarlett Johansson, Jonathan Bailey, Mahershala Ali",
             sinopsis = "Una expedición secreta busca dinosaurios en una isla olvidada.",
-            urlPoster = "https://www.imdb.com/es-es/title/tt31036941/mediaviewer/rm797293058/?ref_=ttmi_mi_10_3",
+            urlPoster = "https://m.media-amazon.com/images/M/MV5BNjg2NTcwYWQtYzk4NS00MTJhLWEzZjItMzIxNjk3YzlkYzU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             urlTrailer = "https://youtu.be/1R3LTANp7hw?si=QfKoCY-y3IKnygPU"
         )
     )
